@@ -11,7 +11,7 @@ public class GuessTheNumber
 		while(failCount<3)
 		{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Guess the number:");
+		System.out.println("Guess the number between 1 to 100:");
 		int guessNumber=sc.nextInt();
 		int generatedNumber;
 		Random random=new Random();
